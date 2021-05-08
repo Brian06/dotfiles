@@ -76,6 +76,15 @@
 
 #### 3) Restart VSC
 
+#### 4) Extensions
+
+1. carbon-now-sh
+2. CSS Peek
+3. ESlint
+4. Live Server
+5. SVG Viewer
+6. vscode-spotify
+7. WakaTime
 
 ## Git Configuration
 
