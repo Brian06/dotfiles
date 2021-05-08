@@ -1,0 +1,57 @@
+{
+  // editor
+  "editor.tabSize": 2,
+  "editor.linkedEditing": true,
+  "editor.formatOnPaste": true,
+  "editor.cursorBlinking": "expand",
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.mouseWheelZoom": false,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.lineHeight": 19,
+
+  // eslint
+  "eslint.alwaysShowStatus": true,
+  "eslint.options": {
+    "useEslintrc": false,
+    "configFile": "/Users/bsalazar/Documents/React_Repo/sot_fork/sot_pages/.eslintrc"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // files
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.autoSave": "onWindowChange",
+
+  // terminal and workbench
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.colorCustomizations": {
+    "terminal.background": "#242627",
+    "terminal.foreground": "#FFF",
+    "terminalCursor.background": "#b403b4",
+    "terminalCursor.foreground": "#28f7b5",
+    "terminal.ansiBlue": "#e0c781", // directory structure
+    "terminal.ansiYellow": "#d84f4f", // git unstaged changes branch
+    "terminal.ansiGreen": "#1cadda", // git staged changes branch
+    "terminal.ansiBlack": "#530c41", // user but change color letter as well
+    // "terminal.ansiBrightBlack":"#665C54",
+    // "terminal.ansiBrightBlue":"#0D6678",
+    // "terminal.ansiBrightCyan":"#a58c8b",
+    // "terminal.ansiBrightGreen":"#95C085",
+    // "terminal.ansiBrightMagenta":"#8F4673",
+    // "terminal.ansiBrightRed":"#FB543F",
+    // "terminal.ansiBrightWhite":"#FDF4C1",
+    // "terminal.ansiBrightYellow":"#fa3b3b",
+    // "terminal.ansiCyan":"#8BA59B",
+    // "terminal.ansiMagenta":"#8F4673",
+    // "terminal.ansiRed":"#FB543F",
+    // "terminal.ansiWhite":"#A89984",
+  },
+  "terminal.integrated.automationShell.linux": "/usr/local/bin/zsh",
+  "terminal.integrated.fontFamily": "'Meslo LG S for Powerline'",
+
+  //others
+  "explorer.openEditors.visible": 0,
+  "breadcrumbs.enabled": false,
+}

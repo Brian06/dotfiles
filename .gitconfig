@@ -1,0 +1,22 @@
+[user]
+	email = bsalazarsanchez06@gmail.com
+	name = Brian Salazar
+
+[pull]
+	rebase = true
+
+[alias]
+	st = status
+	co = commit -S
+	br = branch
+	ct = checkout
+	df = diff
+  pu = push -u origin
+	fe = fetch
+	pr = pull --rebase
+
+[merge]
+  ff = only
+
+[credential]
+	helper = store
