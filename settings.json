@@ -1,21 +1,16 @@
 {
   // editor
   "editor.tabSize": 2,
-  "editor.linkedEditing": true,
   "editor.formatOnPaste": true,
   "editor.cursorBlinking": "expand",
-  "editor.acceptSuggestionOnEnter": "off",
   "editor.mouseWheelZoom": false,
   "editor.cursorSmoothCaretAnimation": true,
-  "editor.renderWhitespace": "boundary",
   "editor.lineHeight": 19,
 
   // eslint
   "eslint.alwaysShowStatus": true,
-  "eslint.options": {
-    "useEslintrc": false,
-    "configFile": "/Users/bsalazar/Documents/React_Repo/sot_fork/sot_pages/.eslintrc"
-  },
+
+  // javascript
   "javascript.updateImportsOnFileMove.enabled": "always",
 
   // files
@@ -53,5 +48,4 @@
 
   //others
   "explorer.openEditors.visible": 0,
-  "breadcrumbs.enabled": false,
 }

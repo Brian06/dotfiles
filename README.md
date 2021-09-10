@@ -4,6 +4,7 @@
 * [ZSH Customization](#zsh-customization)
 * [Visual Studio Code Configuration](#visual-studio-code-configuration)
 * [Git Configuration](#git-configuration)
+* [Eslint and Prettier](#git-configuration)
 
 ***
 
@@ -91,3 +92,23 @@
 #### 1) Copy the .gitconfig from this repo to your global .gitconfig
 
 #### 2) Restart your terminal
+
+## Eslint and Prettier
+
+1. ### Node JS
+
+#### 1) install main packages
+
+* `npm i --save-dev eslint`
+* `npm i --save-dev eslint-plugin-import`
+* `npm i --save-dev eslint-config-airbnb-base`
+* `npm i --save-dev prettier`
+* `npm i --save-dev eslint-config-prettier` - Disabling ESLint formatting rules
+* `npm i --save-dev eslint-plugin-prettier` - Make ESLint use Prettier rules
+
+#### 2) install extensions
+
+* [ESlint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+* [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+
+#### 3) copy all files from eslint/node and added to the root directory and modify them as you want
